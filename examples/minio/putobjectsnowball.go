@@ -29,8 +29,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/minio/minio-go/v7"
-	"github.com/minio/minio-go/v7/pkg/credentials"
+	"github.com/jie123108/minio-go/v7"
+	"github.com/jie123108/minio-go/v7/pkg/credentials"
 )
 
 func main() {
