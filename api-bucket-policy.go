@@ -23,7 +23,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/minio/minio-go/v7/pkg/s3utils"
+	"github.com/jie123108/minio-go/v7/pkg/s3utils"
 )
 
 // SetBucketPolicy sets the access permissions on an existing bucket.
