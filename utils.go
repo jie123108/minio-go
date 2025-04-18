@@ -187,9 +187,9 @@ func isValidExpiry(expires time.Duration) error {
 	if expireSeconds < 1 {
 		return errInvalidArgument("Expires cannot be lesser than 1 second.")
 	}
-	if expireSeconds > 604800 {
-		return errInvalidArgument("Expires cannot be greater than 7 days.")
-	}
+	// if expireSeconds > 604800 {
+	// 	return errInvalidArgument("Expires cannot be greater than 7 days.")
+	// }
 	return nil
 }
 
